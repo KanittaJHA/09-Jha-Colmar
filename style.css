@@ -133,6 +133,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .nav__logo,
@@ -293,7 +294,7 @@ img {
 
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px), (min-width: 1440px) {
     /*=============== HEADER & NAV ===============*/
     .nav {
         max-width: 100%;
